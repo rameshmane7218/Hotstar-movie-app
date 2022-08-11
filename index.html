@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football</title>
+    <link rel="icon" href="https://secure-media.hotstar.com/web-assets/prod/D+H_favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0071033d8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="mobNav">
+            <i class="fa-solid fa-bars"></i>
+            <img id="logo" src="logo.png" alt="Hotstar logo">
+        </div>
+        <div class="navLeft">
+            <i class="fa-solid fa-bars"></i>
+            <img id="logo" src="logo.png" alt="Hotstar logo">
+            <p>TV</p>
+            <p>Movies</p>
+            <p>Sports</p>
+            <p>Disney+</p>
+            <img id="kids" src="https://www.hotstar.com/assets/4aa70ede8904e16b7630300c09219c8e.svg" alt="">
+        </div>
+        <div class="navRight">
+            <div class="searchContainer">
+                <div id="searchbar">
+                    <div id="inputbox">
+                        <form action="" id="form">
+                            <input id="searchBox" oninput="debounce(main,500)" type="text" placeholder="Search"
+                                autocomplete="off">
+                        </form>
+                    </div>
+
+                    <!-- New search items will append in searchlist div  -->
+                    <div id="searchlist">
+                    </div>
+                </div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <p id="subscribe">SUBSCRIBE</p>
+            <p>LOGIN</p>
+        </div>
+    </div>
+
+
+    <div id="container">
+
+        <div class="resultContainer" id="resultContainer">
+            <!-- <div class="moviePoster">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt = "movie poster">
+            </div>
+            <div class="movieInfo">
+                <h3 class="movieTitle">Guardians of the Galaxy Vol. 2</h3>
+                <ul class="movieInfolist">
+                    <li class="year">Year: 2017</li>
+                    <li class="rated">IMDb Ratings: 8.5/10</li>
+                    <li class="released">Released: 05 May 2017</li>
+                </ul>
+                <p class = "genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                <p class = "writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                <p class = "actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                <p class = "plot"><b>Plot:</b> The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's ecounter with his father the ambitious celestial being Ego.</p>
+                <p class = "language"><b>Language:</b> English</p>
+                <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>
+            </div> -->
+        </div>
+        <h2 style="margin-left: 30px;">Trending Movies</h2>
+        <div id="trending">
+
+        </div>
+        <a id="viewMore" href="trending.html">View More</a>
+    </div>
+
+
+
+</body>
+
+</html>
+<script src="index.js"></script>
